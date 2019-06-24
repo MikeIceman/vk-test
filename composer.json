@@ -1,0 +1,16 @@
+{
+    "name": "iceman/vk",
+    "description": "Test VK project",
+    "type": "project",
+    "require": {
+        "vkcom/vk-php-sdk": "^5.95"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Iakovenko",
+            "email": "m.iakovenko@devcaz.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
