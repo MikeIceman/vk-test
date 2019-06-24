@@ -12,3 +12,66 @@ How to start?
 * Execute `composer update` command
 * Enjoy!
  
+ Sample responses (see `like.php`)
+
+```php
+ Array
+(
+    [count] => 11
+    [items] => Array
+        (
+            [0] => 237006757
+            [1] => 2122142
+            [2] => 3678516
+            [3] => 4033362
+            [4] => 6176249
+            [5] => 7139978
+            [6] => 10623252
+            [7] => 13414342
+            [8] => 121753088
+            [9] => 140844753
+            [10] => 483562507
+        )
+)
+```
+```php
+Array
+(
+    [count] => 54
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [type] => profile
+                    [id] => 11341426
+                    [first_name] => Yulia
+                    [last_name] => Burtasova
+                    [is_closed] => 1
+                    [can_access_closed] => 
+                )
+
+            [1] => Array
+                (
+                    [type] => profile
+                    [id] => 3231264
+                    [first_name] => Kristina
+                    [last_name] => Barshentseva
+                    [is_closed] => 
+                    [can_access_closed] => 1
+                )
+
+            [2] => Array
+                (
+                    [type] => profile
+                    [id] => 96268968
+                    [first_name] => Alexey
+                    [last_name] => Belyaev
+                    [is_closed] => 
+                    [can_access_closed] => 1
+                )
+             ...
+             ...
+             ...
+         )
+    )
+```
