@@ -11,6 +11,7 @@ How to start?
 * Fill configuration fields
 * Execute `composer update` command
 * Enjoy!
+* Open to work?
  
  Sample responses (see `like.php`)
 
